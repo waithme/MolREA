@@ -1,0 +1,76 @@
+\begin{table*}[t]
+\centering
+{\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l*{5}{c}}
+\hline
+Model
+& ChEMBL2147\_Ki
+& ChEMBL228\_Ki
+& ChEMBL234\_Ki
+& ChEMBL239\_EC50
+& ChEMBL244\_Ki
+\\
+\hline
+GIN
+& \shortstack{0.85(0.02)\\$\uparrow 17.6\%$}
+& \shortstack{0.84(0.01)\\$\uparrow 11.8\%$}
+& \shortstack{0.80(0.01)\\$\uparrow 8.6\%$}
+& \shortstack{0.87(0.02)\\$\uparrow 12.6\%$}
+& \shortstack{0.97(0.02)\\$\uparrow 17.2\%$} \\
+
+GIN+Descriptor
+& \shortstack{0.74(0.01)\\$\uparrow 5.0\%$}
+& \shortstack{\underline{0.75(0.01)}\\$\uparrow 1.4\%$}
+& \shortstack{0.76(0.02)\\$\uparrow 4.5\%$}
+& \shortstack{0.89(0.01)\\$\uparrow 13.8\%$}
+& \shortstack{0.84(0.02)\\$\uparrow 5.2\%$} \\
+
+GIN+FP
+& \shortstack{0.81(0.03)\\$\uparrow 13.7\%$}
+& \shortstack{0.75(0.02)\\$\uparrow 1.6\%$}
+& \shortstack{\textbf{0.71(0.02)}\\$\downarrow 2.8\%$}
+& \shortstack{0.77(0.01)\\$\uparrow 0.4\%$}
+& \shortstack{0.84(0.01)\\$\uparrow 4.3\%$} \\
+
+GIN+Proxy Output
+& \shortstack{0.79(0.01)\\$\uparrow 11.4\%$}
+& \shortstack{0.81(0.01)\\$\uparrow 9.3\%$}
+& \shortstack{0.82(0.02)\\$\uparrow 10.9\%$}
+& \shortstack{0.84(0.01)\\$\uparrow 9.3\%$}
+& \shortstack{0.87(0.01)\\$\uparrow 8.6\%$} \\
+
+NoFP-NoRXN
+& \shortstack{0.83(0.01)\\$\uparrow 15.5\%$}
+& \shortstack{0.83(0.03)\\$\uparrow 11.7\%$}
+& \shortstack{0.81(0.01)\\$\uparrow 10.5\%$}
+& \shortstack{0.86(0.02)\\$\uparrow 11.3\%$}
+& \shortstack{0.92(0.02)\\$\uparrow 13.2\%$} \\
+
+Zero-RXN
+& \shortstack{\underline{0.70(0.03)}\\$\uparrow 0.3\%$}
+& \shortstack{0.75(0.02)\\$\uparrow 2.0\%$}
+& \shortstack{\underline{0.73(0.01)}\\$\downarrow 0.2\%$}
+& \shortstack{\underline{0.76(0.01)}\\$\uparrow 0.2\%$}
+& \shortstack{\underline{0.81(0.01)}\\$\uparrow 1.2\%$} \\
+
+Random Reactants
+& \shortstack{0.79(0.03)\\$\uparrow 10.7\%$}
+& \shortstack{0.81(0.01)\\$\uparrow 9.5\%$}
+& \shortstack{0.78(0.02)\\$\uparrow 6.2\%$}
+& \shortstack{0.81(0.02)\\$\uparrow 5.9\%$}
+& \shortstack{0.89(0.01)\\$\uparrow 9.8\%$} \\
+
+Full
+& \textbf{0.70(0.03)}
+& \textbf{0.74(0.02)}
+& 0.73(0.01)
+& \textbf{0.76(0.01)}
+& \textbf{0.80(0.01)} \\
+
+\hline
+\end{tabular}
+}
+\caption{Ablation results on MoleculeACE-derived datasets under the official CLIF split. Each column reports the overall test RMSE. Best results are highlighted in bold, and second-best results are underlined. Arrows report the relative RMSE change of the Full model compared with each variant, computed from the mean values. $\uparrow$ indicates that Full improves over the corresponding variant, while $\downarrow$ indicates that Full performs worse.}
+\label{tab:clif_ablation_test}
+\end{table*}

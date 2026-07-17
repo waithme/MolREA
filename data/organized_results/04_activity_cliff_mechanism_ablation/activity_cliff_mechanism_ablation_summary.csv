@@ -1,0 +1,41 @@
+model,dataset,mean,std,n,source
+GIN,chembl2147_ki,0.846502709,0.022046939,5,temp_or_abla2
+GIN,chembl228_ki,0.927457845,0.035153442,5,temp_or_abla2
+GIN,chembl234_ki,0.779501128,0.008358279,5,temp_or_abla2
+GIN,chembl239_ec50,0.989524901,0.016968323,5,temp_or_abla2
+GIN,chembl244_ki,1.009773755,0.018031685,5,temp_or_abla2
+GIN+Descriptor,chembl2147_ki,0.756126225,0.011469532,5,temp_or_abla2
+GIN+Descriptor,chembl228_ki,0.794418764,0.011529926,5,temp_or_abla2
+GIN+Descriptor,chembl234_ki,0.752784538,0.018694670,5,temp_or_abla2
+GIN+Descriptor,chembl239_ec50,0.924529159,0.017305123,5,temp_or_abla2
+GIN+Descriptor,chembl244_ki,0.886674106,0.017086354,5,temp_or_abla2
+GIN+FP,chembl2147_ki,0.745523262,0.048696008,5,temp_or_abla2
+GIN+FP,chembl228_ki,0.798564088,0.019873884,5,temp_or_abla2
+GIN+FP,chembl234_ki,0.666689479,0.013770793,5,temp_or_abla2
+GIN+FP,chembl239_ec50,0.924271965,0.013327820,5,temp_or_abla2
+GIN+FP,chembl244_ki,0.889716983,0.023129892,5,temp_or_abla2
+GIN+Proxy Output,chembl2147_ki,0.764685118,0.061557619,5,temp_or_abla2
+GIN+Proxy Output,chembl228_ki,0.853341770,0.015981531,5,temp_or_abla2
+GIN+Proxy Output,chembl234_ki,0.789902258,0.021586193,5,temp_or_abla2
+GIN+Proxy Output,chembl239_ec50,0.940444314,0.030851811,5,temp_or_abla2
+GIN+Proxy Output,chembl244_ki,0.916110730,0.015445898,5,temp_or_abla2
+NoFP-NoRXN,chembl2147_ki,0.836905694,0.012161059,5,temp_or_abla2
+NoFP-NoRXN,chembl228_ki,0.876358032,0.008710456,5,temp_or_abla2
+NoFP-NoRXN,chembl234_ki,0.779920101,0.031042238,5,temp_or_abla2
+NoFP-NoRXN,chembl239_ec50,0.986056352,0.039875446,5,temp_or_abla2
+NoFP-NoRXN,chembl244_ki,0.969111133,0.032052088,5,temp_or_abla2
+Zero-RXN,chembl2147_ki,0.689260924,0.012651985,5,temp_or_abla2
+Zero-RXN,chembl228_ki,0.763734138,0.012010796,5,temp_or_abla2
+Zero-RXN,chembl234_ki,0.729352593,0.006177270,5,temp_or_abla2
+Zero-RXN,chembl239_ec50,0.882008088,0.020034196,5,temp_or_abla2
+Zero-RXN,chembl244_ki,0.887424195,0.014275146,5,temp_or_abla2
+Random Reactants,chembl2147_ki,0.767870033,0.017052747,5,temp_or_abla2
+Random Reactants,chembl228_ki,0.823582435,0.022547526,5,temp_or_abla2
+Random Reactants,chembl234_ki,0.773843777,0.003883774,5,temp_or_abla2
+Random Reactants,chembl239_ec50,0.900070727,0.019154333,5,temp_or_abla2
+Random Reactants,chembl244_ki,0.930260634,0.013087415,5,temp_or_abla2
+Full,chembl2147_ki,0.686450708,0.010593767,5,fusion_summary_all
+Full,chembl228_ki,0.742390776,0.026363370,5,fusion_summary_all
+Full,chembl234_ki,0.734272122,0.014420410,5,fusion_summary_all
+Full,chembl239_ec50,0.876558530,0.023048905,5,fusion_summary_all
+Full,chembl244_ki,0.877140582,0.008678644,5,fusion_summary_all

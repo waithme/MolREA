@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+{\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{ccccc*{4}{c}}
+\hline
+ProdE & ReactE & DeltaV & AbsP & FusedH & ESOL $\downarrow$ & FreeSolv $\downarrow$ & BACE $\uparrow$ & BBBP $\uparrow$ \\
+\hline
+Y & -- & -- & -- & -- & 1.11 (0.11) & 2.94 (1.33) & 80.01 (5.72) & 91.42 (4.15) \\
+Y & Y & -- & -- & -- & 1.00 (0.28) & 3.14 (1.08) & 84.85 (5.32) & 90.54 (2.20) \\
+Y & Y & Y & -- & -- & 0.93 (0.27) & 2.77 (0.90) & 85.64 (4.51) & 90.57 (2.29) \\
+Y & Y & Y & Y & -- & 0.83 (0.22) & 2.72 (1.13) & 85.48 (4.50) & 91.04 (2.01) \\
+\hline
+\end{tabular}
+}
+\caption{Progressive ablation of feature groups. Regression tasks are evaluated by RMSE and classification tasks by ROC-AUC in percentage points.}
+\label{tab:ablation_progressive}
+\end{table*}

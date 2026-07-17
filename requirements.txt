@@ -1,0 +1,13 @@
+# Core dependencies used by training/evaluation code
+numpy>=1.23
+torch>=2.1
+torch-geometric>=2.4
+scikit-learn>=1.2
+rdkit>=2022.9.5
+matplotlib>=3.7
+
+# Optional: required by RXNFP generation/pretraining scripts
+rxnfp>=0.1.0
+
+# Optional: required by retrosynthesis route generation script
+aizynthfinder>=4.0.0
